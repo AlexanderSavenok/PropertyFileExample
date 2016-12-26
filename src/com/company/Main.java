@@ -13,7 +13,7 @@ public class Main {
         InputStream inputFIle = null;
 
         try {
-
+            //changed line
             inputFIle = new FileInputStream("src\\resources\\config.properties");
             property.load(inputFIle);
 
